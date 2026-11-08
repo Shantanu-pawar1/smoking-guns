@@ -2,15 +2,5 @@
 
 // darvin shantanu is equal both of the ends.
 // new context generation for the agents and adk
-import { Adapter, AdapterRequest, AdapterResponse } from '@chainlink/types'
-import { Requester, Validator } from '@chainlink/external-adapter'
-import { Config, makeConfig } from './config'
 
-const customParams = {
-  base: ['base', 'from', 'coin'],
-  quote: ['quote', 'to', 'market'],
-}
-
-const createRequest = (input: AdapterRequest, config: Config): AdapterResponse => {
-  const validator = new Validator(input, customParams)
-  if (validator.error) throw validator.error
+// now this thing will update my email as well.
