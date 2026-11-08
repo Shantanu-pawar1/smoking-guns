@@ -1,6 +1,7 @@
 // this is just a check and semi demified version of the newbenchmarks adapter, it is not used in production
 
 // darvin shantanu is equal both of the ends.
+// new context generation for the agents and adk
 import { Adapter, AdapterRequest, AdapterResponse } from '@chainlink/types'
 import { Requester, Validator } from '@chainlink/external-adapter'
 import { Config, makeConfig } from './config'
